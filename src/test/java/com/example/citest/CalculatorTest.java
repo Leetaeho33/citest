@@ -17,4 +17,11 @@ public class CalculatorTest {
         result = calculator.plus(n, m);
         Assertions.assertEquals(result, n+m);
     }
+
+    @Test
+    public void test1(){
+        int n=1, m=2, result =0;
+        result = calculator.minus(n,m);
+        Assertions.assertEquals(result, n-m);
+    }
 }
