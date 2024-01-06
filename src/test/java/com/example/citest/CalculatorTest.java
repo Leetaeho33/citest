@@ -24,4 +24,16 @@ public class CalculatorTest {
         result = calculator.minus2(n,m);
         Assertions.assertEquals(result, n-m);
     }
+    @Test
+    public void test2(){
+        int n=1, m=2, result =0;
+        result = calculator.multiple(n,m);
+        Assertions.assertEquals(result, n*m);
+    }
+    @Test
+    public void test3(){
+        int n=1, m=2, result =0;
+        result = calculator.multipleTwo(n,m);
+        Assertions.assertEquals(result, n*m);
+    }
 }
