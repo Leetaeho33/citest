@@ -17,8 +17,8 @@ permissions:
   contents: read
 
 jobs:
-  taeho:
-    build:
+  name : taeho
+  build:
 
     runs-on: ubuntu-latest
 
