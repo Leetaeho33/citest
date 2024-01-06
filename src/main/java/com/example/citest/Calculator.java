@@ -8,5 +8,5 @@ public class Calculator {
         return n+m;
     }
     public int minus2(int n, int m){return n-m;}
-    public int multiple(int n, int m) {return n*m;}
+    public int multiple(int n, int m) {return n*m}
 }
