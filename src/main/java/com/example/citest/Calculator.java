@@ -7,10 +7,9 @@ public class Calculator {
     public int plus(int n, int m){
         return n+m;
     }
-    public int minus2(int n, int m){return n-m;}
-    public int multiple(int n, int m) {return n*m;}
+    public int minus2(int n, int m){return n-m}
+    public int multiple(int n, int m) {return n*m}
 
     public int multipleTwo(int n, int m){
-        return n*m;
-    }
+        return n*m    }
 }
