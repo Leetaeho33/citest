@@ -10,5 +10,7 @@ public class Calculator {
     public int minus2(int n, int m){return n-m;}
     public int multiple(int n, int m) {return n*m;}
 
-//    public int division(int)
+    public int multipleTwo(int n, int m){
+        return n*m;
+    }
 }
