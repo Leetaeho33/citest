@@ -34,6 +34,6 @@ public class CalculatorTest {
     public void test3(){
         int n=1, m=2, result =0;
         result = calculator.multipleTwo(n,m);
-        Assertions.assertEquals(result, n+m);
+        Assertions.assertEquals(result, n*m);
     }
 }
