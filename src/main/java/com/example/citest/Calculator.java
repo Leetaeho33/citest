@@ -13,4 +13,7 @@ public class Calculator {
     public int multipleTwo(int n, int m){
         return n*m;
     }
+    public int plusTwo(int n, int m){
+        return n+m;
+    }
 }
